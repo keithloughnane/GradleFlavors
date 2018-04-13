@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.keithloughnane.whitelabelbikeapp">
 
-    <application>
+    <application tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".ThirdActivity"
             android:label="@string/title_activity_fancy_options"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
-
 </manifest>
