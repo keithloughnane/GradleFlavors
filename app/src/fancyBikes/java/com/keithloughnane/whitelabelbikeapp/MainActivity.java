@@ -12,7 +12,7 @@ public class MainActivity extends BaseMainActivity {
         findViewById(R.id.fancy_options).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ThirdActivity.class);
                 startActivity(intent);
             }
         });
