@@ -16,6 +16,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        simpleBikes {
+            dimension "default"
+            applicationId 'com.keithloughnane.simplebikes'
+        }
+        fancyBikes {
+            dimension "default"
+            applicationId 'com.keithloughnane.fancybikes'
+        }
+    }
 }
 
 dependencies {
