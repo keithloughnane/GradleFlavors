@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">WhiteLabelBikeApp</string>
     <string name="options">Options</string>
+    <string name="title_activity_common_options">CommonOptions</string>
+    <string name="common_options_message">There options are available to all flavors</string>
 </resources>

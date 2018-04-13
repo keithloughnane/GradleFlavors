@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keithloughnane.whitelabelbikeapp">
+
+    <application>
+        <activity
+            android:name=".FancyOptions"
+            android:label="@string/title_activity_fancy_options"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

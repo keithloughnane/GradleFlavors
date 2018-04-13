@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Fancy Bikes</string>
     <string name="main_desc">Welcome to the fancy bike app</string>
     <string name="fancy_options">Fancy options</string>
+    <string name="fancy_options_message">These options are only available to our fancy customers</string>
+    <string name="title_activity_fancy_options">FancyOptions</string>
 </resources>

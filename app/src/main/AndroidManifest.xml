@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CommonOptions"
+            android:label="@string/title_activity_common_options"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
