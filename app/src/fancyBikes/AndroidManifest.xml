@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".FancyOptions"
+            android:name=".ThirdActivity"
             android:label="@string/title_activity_fancy_options"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

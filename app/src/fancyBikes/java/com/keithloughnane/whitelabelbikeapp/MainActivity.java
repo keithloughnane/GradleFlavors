@@ -4,10 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.keithloughnane.whitelabelbikeapp.BaseMainActivity;
-import com.keithloughnane.whitelabelbikeapp.CommonOptions;
-import com.keithloughnane.whitelabelbikeapp.R;
-
 public class MainActivity extends BaseMainActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +12,7 @@ public class MainActivity extends BaseMainActivity {
         findViewById(R.id.fancy_options).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), CommonOptions.class);
+                Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
                 startActivity(intent);
             }
         });

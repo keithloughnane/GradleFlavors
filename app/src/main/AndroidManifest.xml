@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CommonOptions"
+            android:name=".SecondActivity"
             android:label="@string/title_activity_common_options"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

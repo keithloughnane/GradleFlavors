@@ -16,7 +16,7 @@ public abstract class BaseMainActivity extends AppCompatActivity {
         findViewById(R.id.options).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), CommonOptions.class);
+                Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
                 startActivity(intent);
             }
         });
